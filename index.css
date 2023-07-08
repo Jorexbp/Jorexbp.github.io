@@ -82,7 +82,7 @@
 }
 
 .layerSVG{
-  background-image: url('/multimedia/fondoweb.svg');  
+  background-image: url('./multimedia/fondoweb.svg');  
 }
 
 .segundo{
