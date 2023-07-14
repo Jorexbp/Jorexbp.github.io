@@ -28,7 +28,6 @@
   height: 2000px;
   width: auto;
   position: relative;
-<<<<<<< HEAD
   display: flex;
 }
 .intro{
@@ -99,30 +98,6 @@ font-size: 1.5em;
   display: flex;
   justify-content: center;
   
-=======
-}
-.intro{
-  z-index: 1;
-  width: 75%;
-  height: 25%;
-  top: 5%;
-  right: 5%;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  -webkit-animation: expand 1s;
-}
-.sombraIntro{
-  z-index: 0;
-  width: 75%;
-  height: 25%;
-  top: 5%;
-  right: 1%;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  -webkit-animation: expandSombra 1s;
->>>>>>> e62ad5d47e3ed0b75dcd59682eacc920eeb9bf7a
 }
 
 @-webkit-keyframes expand{
@@ -145,14 +120,11 @@ font-size: 1.5em;
 .blobAnimado{
   width: auto;
   height: auto;
-<<<<<<< HEAD
   display: flex;
   align-content: center;
   justify-items: center;
   z-index: 0;
   
-=======
->>>>>>> e62ad5d47e3ed0b75dcd59682eacc920eeb9bf7a
 }
 .spacer{
   aspect-ratio: 960/540;
@@ -170,45 +142,26 @@ font-size: 1.5em;
   z-index: 1;
   width: 75%;
   height: 25%;
-<<<<<<< HEAD
   top:35%;
-=======
-  top:30%;
->>>>>>> e62ad5d47e3ed0b75dcd59682eacc920eeb9bf7a
   left: 5%;
   position: absolute;
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
   
-=======
-  -webkit-animation: expand 1s;
->>>>>>> e62ad5d47e3ed0b75dcd59682eacc920eeb9bf7a
 }
 
 
 .sombraSegundo{
-<<<<<<< HEAD
   z-index: 0;
   width: 70%;
   height: 25%;
   z-index: 0;
   top:37%;
-=======
-  width: 75%;
-  
-  z-index: 0;
-  top:32%;
->>>>>>> e62ad5d47e3ed0b75dcd59682eacc920eeb9bf7a
   left: 2%;
   position: absolute;
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
   
-=======
-  -webkit-animation: expandSombra 1s;
->>>>>>> e62ad5d47e3ed0b75dcd59682eacc920eeb9bf7a
 }
 .tercero{
   z-index: 1;
@@ -230,11 +183,7 @@ font-size: 1.5em;
   position: absolute;
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
   
-=======
-  -webkit-animation: expandSombra 1s;
->>>>>>> e62ad5d47e3ed0b75dcd59682eacc920eeb9bf7a
 }
 
 .navBar{
