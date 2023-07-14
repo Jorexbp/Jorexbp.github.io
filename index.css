@@ -28,28 +28,76 @@
   height: 2000px;
   width: auto;
   position: relative;
+  display: flex;
 }
 .intro{
-  z-index: 1;
-  width: 75%;
+  z-index: 0;
+  width: 60%;
   height: 25%;
   top: 5%;
-  right: 5%;
+  right: 15%;
   position: absolute;
   display: flex;
   justify-content: center;
-  -webkit-animation: expand 1s;
+  align-items: center;
+  
+  margin: 0;
+}
+.introTexto{
+
+z-index: 10;
+width: 60%;
+height: 7%;
+color: #ffffff;
+font-family: 'Roboto';
+top: 10%;
+right: 0;
+
+
+margin: 0;
+padding: 0;
+position: absolute;
+}
+.introTexto h1{
+  position: relative;
+  right: -10%;
+  
+  letter-spacing: .2em;
+
+font-size: 1.5em; 
+  @media (max-width: 800px) {
+    top: 50%;
+    right: -3%;
+    font-size: 1.1em;
+
+  }
+}
+.introTexto p{
+  color: rgb(255, 255, 255);
+  position: relative;
+  line-height: 2em;
+  width: 60%;
+  letter-spacing: .1em;
+  max-width: 40ch;
+  @media (max-width: 800px) {
+  letter-spacing: 0.05em;
+  line-height: 1em;
+  max-width: 20ch;
+  top: 40%;
+  font-size: 0.9em;
+  right: -6%;
+  }
 }
 .sombraIntro{
-  z-index: 0;
-  width: 75%;
+  z-index: -1;
+  width: 60%;
   height: 25%;
   top: 5%;
-  right: 1%;
+  right: 7%;
   position: absolute;
   display: flex;
   justify-content: center;
-  -webkit-animation: expandSombra 1s;
+  
 }
 
 @-webkit-keyframes expand{
@@ -72,6 +120,11 @@
 .blobAnimado{
   width: auto;
   height: auto;
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  z-index: 0;
+  
 }
 .spacer{
   aspect-ratio: 960/540;
@@ -82,32 +135,33 @@
 }
 
 .layerSVG{
-  background-image: url('/web/multimedia/fondoweb.svg');  
+  background-image: url('fondoweb.svg');  
 }
 
 .segundo{
   z-index: 1;
   width: 75%;
   height: 25%;
-  top:30%;
+  top:35%;
   left: 5%;
   position: absolute;
   display: flex;
   justify-content: center;
-  -webkit-animation: expand 1s;
+  
 }
 
 
 .sombraSegundo{
-  width: 75%;
-  
   z-index: 0;
-  top:32%;
+  width: 70%;
+  height: 25%;
+  z-index: 0;
+  top:37%;
   left: 2%;
   position: absolute;
   display: flex;
   justify-content: center;
-  -webkit-animation: expandSombra 1s;
+  
 }
 .tercero{
   z-index: 1;
@@ -129,7 +183,7 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  -webkit-animation: expandSombra 1s;
+  
 }
 
 .navBar{
