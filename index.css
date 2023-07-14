@@ -29,6 +29,8 @@
   width: auto;
   position: relative;
   display: flex;
+  overflow:hidden
+  ;
 }
 .intro{
   z-index: 0;
