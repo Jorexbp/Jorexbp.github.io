@@ -34,10 +34,15 @@
   
   
   display: flex;
+<<<<<<< HEAD
   overflow: hidden;
   min-height: 2000px;
   min-width: 1000px;
   
+=======
+  overflow:hidden
+  ;
+>>>>>>> fcdf2b4200fa4bf8055c193a3c9265d229262360
 }
 .intro{
   z-index: 0;
