@@ -1,7 +1,9 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
+
 
 @-webkit-keyframes glow {
   from {
@@ -25,10 +27,17 @@
 .backDiv{
   z-index: 0;
   background: linear-gradient(rgb(49, 93, 151) 6%, rgba(19, 102, 118, 0.58) 100%);
-  height: 2000px;
+  height: 3000px;
   width: auto;
   position: relative;
+  
+  
+  
   display: flex;
+  overflow: hidden;
+  min-height: 2000px;
+  min-width: 1000px;
+  
 }
 .intro{
   z-index: 0;
@@ -50,10 +59,8 @@ width: 60%;
 height: 7%;
 color: #ffffff;
 font-family: 'Roboto';
-top: 10%;
+top: 12%;
 right: 0;
-
-
 margin: 0;
 padding: 0;
 position: absolute;
@@ -63,30 +70,75 @@ position: absolute;
   right: -10%;
   
   letter-spacing: .2em;
-
+top: 3%;
 font-size: 1.5em; 
-  @media (max-width: 800px) {
-    top: 50%;
-    right: -3%;
-    font-size: 1.1em;
+ 
 
+
+
+@media (max-width: 610px) {
+  color: red;
+
+}
+  
+  @media (max-width: 800px) {
+    top: 25%;
+    right: -6%;
+    font-size: 2em;
   }
+  @media (max-width: 900px) {
+    top: 15%;
+    right: -6%;
+    font-size: 1.5em;
+  }
+  @media (max-width: 1050px) {
+    top: 15%;
+    right: -8%;
+    font-size: 1.75em;
+  }
+  
+ 
 }
 .introTexto p{
   color: rgb(255, 255, 255);
   position: relative;
-  line-height: 2em;
-  width: 60%;
+  line-height: 2.5em;
+  width: 50%;
   letter-spacing: .1em;
-  max-width: 40ch;
-  @media (max-width: 800px) {
-  letter-spacing: 0.05em;
-  line-height: 1em;
-  max-width: 20ch;
-  top: 40%;
-  font-size: 0.9em;
-  right: -6%;
-  }
+  max-width: 35ch;
+  right: -3%;
+  top: 9%;
+  
+   
+    @media (max-width: 800px) {
+      letter-spacing: 0.05em;
+      line-height: 1.5em;
+      max-width: 30ch;
+      top: 30%;
+      font-size: 0.9em;
+      right: -6%;
+      }
+    @media (max-width: 950px) {  
+        letter-spacing: 0.05em;
+        line-height: 1.75em;
+        max-width: 30ch;
+        top: 15%;
+        font-size: 1em;
+        right: -6%;
+        }
+        @media (max-width: 1050px) {
+          
+          letter-spacing: 0.05em;
+          line-height: 1.75em;
+          max-width: 25ch;
+          top: 15%;
+          font-size: 1.1em;
+          right: -6%;
+          }
+ 
+  
+
+
 }
 .sombraIntro{
   z-index: -1;
@@ -136,6 +188,7 @@ font-size: 1.5em;
 
 .layerSVG{
   background-image: url('fondoweb.svg');  
+  
 }
 
 .segundo{
