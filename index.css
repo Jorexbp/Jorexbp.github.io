@@ -3,6 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+@media (max-width: 800px) {
+  html, body {
+  overflow-x: hidden;
+  }
+}
 
 
 @-webkit-keyframes glow {
@@ -46,25 +51,263 @@
   margin: 0;
 }
 .introTexto{
-z-index: 10;
-width: 60%;
-height: 7%;
-color: #ffffff;
-font-family: 'Roboto';
-top: 12%;
-right: 0;
-margin: 0;
-padding: 0;
-position: absolute;
+  z-index: 10;
+  width: 60%;
+  height: 7%;
+  color: #ffffff;
+  font-family: 'Roboto';
+  top: 12%;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  }
+  .introTexto h1{
+    position: relative;
+    right: -10%;
+    letter-spacing: .2em;
+    top: -3%;
+    font-size: 1.75em; 
+  }
+  .introTexto p{
+    color: rgb(255, 255, 255);
+    position: relative;
+    line-height: 2.5em;
+    width: 50%;
+    letter-spacing: .1em;
+    max-width: 35ch;
+    right: -3%;
+    font-size: 1em;
+
+    top: 0;
+  }
+@media screen and (max-width: 2560px) {
+  .intro{
+    z-index: 0;
+    width: 60%;
+    height: 25%;
+    top: 5%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .introTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 12%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    }
+    .introTexto h1{
+      position: relative;
+      right: -10%;
+      letter-spacing: .2em;
+      top: -15%;
+      font-size: 2.5em; 
+    
+    }
+    .introTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 1.75em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 28ch;
+      right: -10%;
+      top: -5%;
+      font-size: 1.5em;
+    }
 }
-.introTexto h1{
-  position: relative;
-  right: -10%;
-  
-  letter-spacing: .2em;
-top: 3%;
-font-size: 1.5em; 
- 
+
+@media screen and (max-width: 1895px) {
+  .intro{
+    z-index: 0;
+    width: 60%;
+    height: 25%;
+    top: 5%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .introTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 12%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    }
+    .introTexto h1{
+      position: relative;
+      right: -8%;
+      letter-spacing: .2em;
+      top: -15%;
+      font-size: 2.75em; 
+    
+    }
+    .introTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 1.75em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 28ch;
+      right: -6%;
+      top: -5%;
+      font-size: 1.45em;
+    }
+}
+
+@media screen and (max-width: 1684px) {
+  .intro{
+    z-index: 0;
+    width: 60%;
+    height: 25%;
+    top: 5%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .introTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 12%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    }
+    .introTexto h1{
+      position: relative;
+      right: -10%;
+      letter-spacing: .2em;
+      top: -10%;
+      font-size: 2.5em; 
+    
+    }
+    .introTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 1.75em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 28ch;
+      right: -6%;
+      top: 0;
+      font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 1579px) {
+  .intro{
+    z-index: 0;
+    width: 60%;
+    height: 25%;
+    top: 5%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .introTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 12%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    }
+    .introTexto h1{
+      position: relative;
+      right: -8%;
+      letter-spacing: .2em;
+      top: -5%;
+      font-size: 2em; 
+    }
+    .introTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 1.75em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 28ch;
+      right: -4%;
+      top: 5%;
+      font-size: 1.4em;
+    }
+}
+@media screen and (max-width: 315px) {
+  .intro{
+    z-index: 0;
+    width: 60%;
+    height: 25%;
+    top: 5%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .introTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 12%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    }
+    .introTexto h1{
+      position: relative;
+      right: -8%;
+      letter-spacing: .2em;
+      top: 65%;
+      font-size: 0.4em; 
+    
+    }
+    .introTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 1.75em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 20ch;
+      right: -4%;
+      top: 60%;
+      font-size: 0.15em;
+    }
+}
 
 @media screen and (max-width: 1148px) {
   .intro{
@@ -79,65 +322,306 @@ font-size: 1.5em;
     align-items: center;
     margin: 0;
   }
-  
-  @media (max-width: 800px) {
-    top: 25%;
-    right: -6%;
-    font-size: 2em;
-  }
-  @media (max-width: 900px) {
-    top: 15%;
-    right: -6%;
-    font-size: 1.5em;
-  }
-  @media (max-width: 1050px) {
-    top: 15%;
-    right: -8%;
-    font-size: 1.75em;
-  }
-  
- 
-}
-.introTexto p{
-  color: rgb(255, 255, 255);
-  position: relative;
-  line-height: 2.5em;
-  width: 50%;
-  letter-spacing: .1em;
-  max-width: 35ch;
-  right: -3%;
-  top: 9%;
-  
-   
-    @media (max-width: 800px) {
-      letter-spacing: 0.05em;
-      line-height: 1.5em;
-      max-width: 30ch;
-      top: 30%;
+  .introTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 12%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    }
+    .introTexto h1{
+      position: relative;
+      right: -8%;
+      letter-spacing: .2em;
+      top: 9%;
+    }
+    .introTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: -3%;
+      top: 3%;
       font-size: 0.9em;
-      right: -6%;
-      }
-    @media (max-width: 950px) {  
-        letter-spacing: 0.05em;
-        line-height: 1.75em;
-        max-width: 30ch;
-        top: 15%;
-        font-size: 1em;
-        right: -6%;
-        }
-        @media (max-width: 1050px) {
-          
-          letter-spacing: 0.05em;
-          line-height: 1.75em;
-          max-width: 25ch;
-          top: 15%;
-          font-size: 1.1em;
-          right: -6%;
-          }
- 
-  
+    }
+}
 
-
+@media screen and (max-width: 1010px) {
+  .intro{
+    z-index: 0;
+    width: 60%;
+    height: 25%;
+    top: 5%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .introTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 12%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    }
+    .introTexto h1{
+      position: relative;
+      right: -10%;
+      letter-spacing: .2em;
+      top: 23%;
+      font-size: 1.35em;
+    }
+    .introTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: -3%;
+      top: 18%;
+      font-size: 0.75em;
+    }
+}
+@media screen and (max-width: 842px) {
+  .intro{
+    z-index: 0;
+    width: 60%;
+    height: 25%;
+    top: 5%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .introTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 12%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    }
+    .introTexto h1{
+      position: relative;
+      right: -8%;
+      letter-spacing: .2em;
+      top: 30%;
+      font-size: 1.25em; 
+    
+    }
+    .introTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 1.75em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 28ch;
+      right: -4%;
+      top: 25%;
+      font-size: 0.75em;
+    }
+}
+@media screen and (max-width: 722px) {
+  .intro{
+    z-index: 0;
+    width: 60%;
+    height: 25%;
+    top: 5%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .introTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 12%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    }
+    .introTexto h1{
+      position: relative;
+      right: -7%;
+      letter-spacing: .2em;
+      top: 35%;
+      font-size: 1.1em; 
+    
+    }
+    .introTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 1.75em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 28ch;
+      right: -4%;
+      top: 30%;
+      font-size: 0.65em;
+    }
+}
+@media screen and (max-width: 631px) {
+  .intro{
+    z-index: 0;
+    width: 60%;
+    height: 25%;
+    top: 5%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .introTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 12%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    }
+    .introTexto h1{
+      position: relative;
+      right: -8%;
+      letter-spacing: .2em;
+      top: 45%;
+      font-size: 0.9em; 
+    
+    }
+    .introTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 1.75em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 26ch;
+      right: -4%;
+      top: 38%;
+      font-size: 0.5em;
+    }
+}
+@media screen and (max-width: 505px) {
+  .intro{
+    z-index: 0;
+    width: 60%;
+    height: 25%;
+    top: 5%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .introTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 12%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    }
+    .introTexto h1{
+      position: relative;
+      right: -8%;
+      letter-spacing: .2em;
+      top: 50%;
+      font-size: 0.65em; 
+    
+    }
+    .introTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 1.75em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 28ch;
+      right: -4%;
+      top: 45%;
+      font-size: 0.45em;
+    }
+}
+@media screen and (max-width: 421px) {
+  .intro{
+    z-index: 0;
+    width: 60%;
+    height: 25%;
+    top: 5%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .introTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 12%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    }
+    .introTexto h1{
+      position: relative;
+      right: -8%;
+      letter-spacing: .2em;
+      top: 60%;
+      font-size: 0.5em; 
+    
+    }
+    .introTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 1.75em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 27ch;
+      right: -4%;
+      top: 55%;
+      font-size: 0.275em;
+    }
+}
 .sombraIntro{
   z-index: -1;
   width: 60%;
