@@ -30,19 +30,8 @@
   height: 3000px;
   width: auto;
   position: relative;
-  
-  
-  
   display: flex;
-<<<<<<< HEAD
   overflow: hidden;
-  min-height: 2000px;
-  min-width: 1000px;
-  
-=======
-  overflow:hidden
-  ;
->>>>>>> fcdf2b4200fa4bf8055c193a3c9265d229262360
 }
 .intro{
   z-index: 0;
@@ -54,11 +43,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
   margin: 0;
 }
 .introTexto{
-
 z-index: 10;
 width: 60%;
 height: 7%;
@@ -79,12 +66,19 @@ top: 3%;
 font-size: 1.5em; 
  
 
-
-
-@media (max-width: 610px) {
-  color: red;
-
-}
+@media screen and (max-width: 1148px) {
+  .intro{
+    z-index: 0;
+    width: 60%;
+    height: 25%;
+    top: 5%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
   
   @media (max-width: 800px) {
     top: 25%;
@@ -144,7 +138,6 @@ font-size: 1.5em;
   
 
 
-}
 .sombraIntro{
   z-index: -1;
   width: 60%;
