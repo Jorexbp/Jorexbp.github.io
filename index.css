@@ -38,18 +38,7 @@
   display: flex;
   overflow: hidden;
 }
-.intro{
-  z-index: 0;
-  width: 60%;
-  height: 25%;
-  top: 5%;
-  right: 15%;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
+
 .introTexto{
   z-index: 10;
   width: 60%;
@@ -64,10 +53,10 @@
   }
   .introTexto h1{
     position: relative;
-    right: -10%;
+    right: -7%;
     letter-spacing: .2em;
     top: -3%;
-    font-size: 1.75em; 
+    font-size: 1em; 
   }
   .introTexto p{
     color: rgb(255, 255, 255);
@@ -78,22 +67,205 @@
     max-width: 35ch;
     right: -3%;
     font-size: 1em;
-
     top: 0;
   }
-@media screen and (max-width: 2560px) {
-  .intro{
-    z-index: 0;
+  .sombraIntro{
+    z-index: -1;
     width: 60%;
     height: 25%;
     top: 5%;
-    right: 15%;
+    right: 3%;
     position: absolute;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0;
+    
   }
+  .segundoTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 40%;
+    right: 10%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+  .segundoTexto h1{
+    position: relative;
+    right: 0;
+    letter-spacing: .2em;
+    top: -3%;
+    font-size:1.65em;
+  }
+  .segundoTexto p{
+    color: rgb(255, 255, 255);
+    position: relative;
+    line-height: 2.5em;
+    width: 50%;
+    letter-spacing: .1em;
+    max-width: 35ch;
+    right: 0;
+    font-size: 1.2em;
+    top: 0;
+  }
+  .tercerTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 60%;
+    right: 10%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+  .tercerTexto h1{
+    position: relative;
+    right: -30%;
+    letter-spacing: .2em;
+    top: 43%;
+    font-size:2.5em;
+    color: white;
+  }
+  .tercerTexto p{
+    color: rgb(255, 255, 255);
+    position: relative;
+    line-height: 2.5em;
+    width: 50%;
+    letter-spacing: .1em;
+    max-width: 35ch;
+    right: -25%;
+    font-size: 1.1em;
+    top: 45%;
+  }
+  @media screen and (max-width: 5120px) {
+    .sombraIntro{
+      z-index: -1;
+      width: 50%;
+      height: 20%;
+      top: 8%;
+      right: 10%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      
+    }
+    .introTexto{
+      z-index: 10;
+      width: 60%;
+      height: 7%;
+      color: #ffffff;
+      font-family: 'Roboto';
+      top: 12%;
+      right: 0;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      }
+      .introTexto h1{
+        position: relative;
+        right: -25%;
+        letter-spacing: .2em;
+        top: -15%;
+        font-size: 1.75em;
+      }
+      .introTexto p{
+        color: rgb(255, 255, 255);
+        position: relative;
+        line-height: 1.75em;
+        width: 50%;
+        letter-spacing: .1em;
+        max-width: 28ch;
+        right: -23%;
+        top: -5%;
+        font-size: 1.45em;
+      }
+      .segundoTexto h1{
+        position: relative;
+        right: -15%;
+        letter-spacing: .2em;
+        top: -3%;
+        font-size:1.65em;
+      }
+      .segundoTexto p{
+        color: rgb(255, 255, 255);
+        position: relative;
+        line-height: 2.5em;
+        width: 50%;
+        letter-spacing: .1em;
+        max-width: 35ch;
+        right: -15%;
+        font-size: 1.2em;
+        top: 0;
+      }
+      .tercerTexto h1{
+        position: relative;
+        right: -42%;
+        letter-spacing: .2em;
+        top: 43%;
+        font-size:2.5em;
+        color: white;
+      }
+      .tercerTexto p{
+        color: rgb(255, 255, 255);
+        position: relative;
+        line-height: 2.5em;
+        width: 50%;
+        letter-spacing: .1em;
+        max-width: 35ch;
+        right: -40%;
+        font-size: 1.1em;
+        top: 45%;
+      }
+  }
+  @media screen and (max-width: 3840px) {
+    .sombraIntro{
+      z-index: -1;
+      width: 50%;
+      height: 20%;
+      top: 8%;
+      right: 10%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      
+    }
+    .introTexto{
+      z-index: 10;
+      width: 60%;
+      height: 7%;
+      color: #ffffff;
+      font-family: 'Roboto';
+      top: 12%;
+      right: 0;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      }
+      .introTexto h1{
+        position: relative;
+        right: -22%;
+        letter-spacing: .2em;
+        top: -15%;
+        font-size: 1.75em; 
+      }
+      .introTexto p{
+        color: rgb(255, 255, 255);
+        position: relative;
+        line-height: 1.75em;
+        width: 50%;
+        letter-spacing: .1em;
+        max-width: 28ch;
+        right: -21%;
+        top: -5%;
+        font-size: 1.45em;
+      }
+  }
+  
+@media screen and (max-width: 2560px) {
   .introTexto{
     z-index: 10;
     width: 60%;
@@ -108,7 +280,77 @@
     }
     .introTexto h1{
       position: relative;
-      right: -10%;
+      right: -15%;
+      letter-spacing: .2em;
+      top: -15%;
+      font-size: 2em; 
+    }
+    .introTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 1.75em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 28ch;
+      right: -13%;
+      top: -5%;
+      font-size: 1.5em;
+    }
+    .segundoTexto h1{
+      position: relative;
+      right: -5%;
+      letter-spacing: .2em;
+      top: -3%;
+      font-size:2em;
+    }
+    .segundoTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: -3%;
+      font-size: 1.35em;
+      top: 0;
+    }
+    .tercerTexto h1{
+      position: relative;
+      right: -35%;
+      letter-spacing: .2em;
+      top: 43%;
+      font-size:2.5em;
+      color: white;
+    }
+    .tercerTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: -32%;
+      font-size: 1.1em;
+      top: 45%;
+    }
+}
+
+@media screen and (max-width: 1895px) {
+  .introTexto{
+    z-index: 10;
+    width: 60%;
+    height: 7%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 12%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    }
+    .introTexto h1{
+      position: relative;
+      right: -12%;
       letter-spacing: .2em;
       top: -15%;
       font-size: 2.5em; 
@@ -123,69 +365,11 @@
       max-width: 28ch;
       right: -10%;
       top: -5%;
-      font-size: 1.5em;
-    }
-}
-
-@media screen and (max-width: 1895px) {
-  .intro{
-    z-index: 0;
-    width: 60%;
-    height: 25%;
-    top: 5%;
-    right: 15%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
-  .introTexto{
-    z-index: 10;
-    width: 60%;
-    height: 7%;
-    color: #ffffff;
-    font-family: 'Roboto';
-    top: 12%;
-    right: 0;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    }
-    .introTexto h1{
-      position: relative;
-      right: -8%;
-      letter-spacing: .2em;
-      top: -15%;
-      font-size: 2.75em; 
-    
-    }
-    .introTexto p{
-      color: rgb(255, 255, 255);
-      position: relative;
-      line-height: 1.75em;
-      width: 50%;
-      letter-spacing: .1em;
-      max-width: 28ch;
-      right: -6%;
-      top: -5%;
       font-size: 1.45em;
     }
 }
 
 @media screen and (max-width: 1684px) {
-  .intro{
-    z-index: 0;
-    width: 60%;
-    height: 25%;
-    top: 5%;
-    right: 15%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
   .introTexto{
     z-index: 10;
     width: 60%;
@@ -213,25 +397,13 @@
       width: 50%;
       letter-spacing: .1em;
       max-width: 28ch;
-      right: -6%;
+      right: -10%;
       top: 0;
       font-size: 1.4em;
     }
 }
 
 @media screen and (max-width: 1579px) {
-  .intro{
-    z-index: 0;
-    width: 60%;
-    height: 25%;
-    top: 5%;
-    right: 15%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
   .introTexto{
     z-index: 10;
     width: 60%;
@@ -249,7 +421,7 @@
       right: -8%;
       letter-spacing: .2em;
       top: -5%;
-      font-size: 2em; 
+      font-size: 2.25em; 
     }
     .introTexto p{
       color: rgb(255, 255, 255);
@@ -258,24 +430,49 @@
       width: 50%;
       letter-spacing: .1em;
       max-width: 28ch;
-      right: -4%;
+      right: -7%;
       top: 5%;
-      font-size: 1.4em;
+      font-size: 1.35em;
+    }
+    .segundoTexto h1{
+      position: relative;
+      right: 0;
+      letter-spacing: .2em;
+      top: 5%;
+      font-size:1.45em;
+    }
+    .segundoTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 45%;
+      letter-spacing: .1em;
+      max-width: 33ch;
+      right: 0;
+      font-size: 1.1em;
+      top: 0;
+    }
+    .tercerTexto h1{
+      position: relative;
+      right: -30%;
+      letter-spacing: .2em;
+      top: 43%;
+      font-size:2.5em;
+      color: white;
+    }
+    .tercerTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: -25%;
+      font-size: 1.1em;
+      top: 45%;
     }
 }
 @media screen and (max-width: 315px) {
-  .intro{
-    z-index: 0;
-    width: 60%;
-    height: 25%;
-    top: 5%;
-    right: 15%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
   .introTexto{
     z-index: 10;
     width: 60%;
@@ -294,7 +491,6 @@
       letter-spacing: .2em;
       top: 65%;
       font-size: 0.4em; 
-    
     }
     .introTexto p{
       color: rgb(255, 255, 255);
@@ -310,18 +506,6 @@
 }
 
 @media screen and (max-width: 1148px) {
-  .intro{
-    z-index: 0;
-    width: 60%;
-    height: 25%;
-    top: 5%;
-    right: 15%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
   .introTexto{
     z-index: 10;
     width: 60%;
@@ -351,21 +535,46 @@
       top: 3%;
       font-size: 0.9em;
     }
+    .segundoTexto h1{
+      position: relative;
+      right: 0;
+      letter-spacing: .2em;
+      top: 25%;
+      font-size:1.2em;
+    }
+    .segundoTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: 0;
+      font-size: 0.9em;
+      top: 25%;
+    }
+    .tercerTexto h1{
+      position: relative;
+      right: -30%;
+      letter-spacing: .2em;
+      top: 55%;
+      font-size:2.25em;
+      color: white;
+    }
+    .tercerTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: -25%;
+      font-size: 1em;
+      top: 50%;
+    }
 }
 
 @media screen and (max-width: 1010px) {
-  .intro{
-    z-index: 0;
-    width: 60%;
-    height: 25%;
-    top: 5%;
-    right: 15%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
   .introTexto{
     z-index: 10;
     width: 60%;
@@ -396,20 +605,45 @@
       top: 18%;
       font-size: 0.75em;
     }
+    .segundoTexto h1{
+      position: relative;
+      right: 0;
+      letter-spacing: .2em;
+      top: 35%;
+      font-size:1.1em;
+    }
+    .segundoTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: 0;
+      font-size: 0.8em;
+      top: 30%;
+    }
+    .tercerTexto h1{
+      position: relative;
+      right: -30%;
+      letter-spacing: .2em;
+      top: 70%;
+      font-size:2em;
+      color: white;
+    }
+    .tercerTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: -25%;
+      font-size: 0.85em;
+      top: 65%;
+    }
 }
 @media screen and (max-width: 842px) {
-  .intro{
-    z-index: 0;
-    width: 60%;
-    height: 25%;
-    top: 5%;
-    right: 15%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
   .introTexto{
     z-index: 10;
     width: 60%;
@@ -441,20 +675,45 @@
       top: 25%;
       font-size: 0.75em;
     }
+    .segundoTexto h1{
+      position: relative;
+      right: 0;
+      letter-spacing: .2em;
+      top: 45%;
+      font-size:0.9em;
+    }
+    .segundoTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: 0;
+      font-size: 0.6em;
+      top: 50%;
+    }
+    .tercerTexto h1{
+      position: relative;
+      right: -30%;
+      letter-spacing: .2em;
+      top: 80%;
+      font-size:1.5em;
+      color: white;
+    }
+    .tercerTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 31ch;
+      right: -25%;
+      font-size: 0.75em;
+      top: 75%;
+    }
 }
 @media screen and (max-width: 722px) {
-  .intro{
-    z-index: 0;
-    width: 60%;
-    height: 25%;
-    top: 5%;
-    right: 15%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
   .introTexto{
     z-index: 10;
     width: 60%;
@@ -486,20 +745,45 @@
       top: 30%;
       font-size: 0.65em;
     }
+    .segundoTexto h1{
+      position: relative;
+      right: 0;
+      letter-spacing: .2em;
+      top: 55%;
+      font-size:0.8em;
+    }
+    .segundoTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: 0;
+      font-size: 0.55em;
+      top: 50%;
+    }
+    .tercerTexto h1{
+      position: relative;
+      right: -30%;
+      letter-spacing: .2em;
+      top: 90%;
+      font-size:1.5em;
+      color: white;
+    }
+    .tercerTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: -25%;
+      font-size: 0.65em;
+      top: 80%;
+    }
 }
 @media screen and (max-width: 631px) {
-  .intro{
-    z-index: 0;
-    width: 60%;
-    height: 25%;
-    top: 5%;
-    right: 15%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
   .introTexto{
     z-index: 10;
     width: 60%;
@@ -518,7 +802,6 @@
       letter-spacing: .2em;
       top: 45%;
       font-size: 0.9em; 
-    
     }
     .introTexto p{
       color: rgb(255, 255, 255);
@@ -531,20 +814,45 @@
       top: 38%;
       font-size: 0.5em;
     }
+    .segundoTexto h1{
+      position: relative;
+      right: 0;
+      letter-spacing: .2em;
+      top: 65%;
+      font-size:0.65em;
+    }
+    .segundoTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: 0;
+      font-size: 0.45em;
+      top: 60%;
+    }
+    .tercerTexto h1{
+      position: relative;
+      right: -30%;
+      letter-spacing: .2em;
+      top: 100%;
+      font-size:1.1em;
+      color: white;
+    }
+    .tercerTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 31ch;
+      right: -25%;
+      font-size: 0.5em;
+      top: 90%;
+    }
 }
 @media screen and (max-width: 505px) {
-  .intro{
-    z-index: 0;
-    width: 60%;
-    height: 25%;
-    top: 5%;
-    right: 15%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
   .introTexto{
     z-index: 10;
     width: 60%;
@@ -576,20 +884,45 @@
       top: 45%;
       font-size: 0.45em;
     }
+    .segundoTexto h1{
+      position: relative;
+      right: 0;
+      letter-spacing: .2em;
+      top: 75%;
+      font-size:0.6em;
+    }
+    .segundoTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: 0;
+      font-size: 0.35em;
+      top: 70%;
+    }
+    .tercerTexto h1{
+      position: relative;
+      right: -30%;
+      letter-spacing: .2em;
+      top: 110%;
+      font-size:0.85em;
+      color: white;
+    }
+    .tercerTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 31ch;
+      right: -25%;
+      font-size: 0.35em;
+      top: 110%;
+    }
 }
 @media screen and (max-width: 421px) {
-  .intro{
-    z-index: 0;
-    width: 60%;
-    height: 25%;
-    top: 5%;
-    right: 15%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
   .introTexto{
     z-index: 10;
     width: 60%;
@@ -621,18 +954,58 @@
       top: 55%;
       font-size: 0.275em;
     }
+    .segundoTexto h1{
+      position: relative;
+      right: 0;
+      letter-spacing: .2em;
+      top: 87%;
+      font-size:0.35em;
+    }
+    .segundoTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      right: 0;
+      font-size: 0.15em;
+      top: 80%;
+    }
+    .tercerTexto h1{
+      position: relative;
+      right: -30%;
+      letter-spacing: .2em;
+      top: 120%;
+      font-size:0.75em;
+      color: white;
+    }
+    .tercerTexto p{
+      color: rgb(255, 255, 255);
+      position: relative;
+      line-height: 2.5em;
+      width: 50%;
+      letter-spacing: .1em;
+      max-width: 31ch;
+      right: -25%;
+      font-size: 0.2em;
+      top: 115%;
+    }
 }
-.sombraIntro{
-  z-index: -1;
-  width: 60%;
+
+.intro{
+  z-index: 0;
+  width: 75%;
   height: 25%;
   top: 5%;
-  right: 7%;
+  right: 5%;
   position: absolute;
   display: flex;
   justify-content: center;
-  
+  align-items: center;
+  margin: 0;
 }
+
 
 @-webkit-keyframes expand{
   0%{height:100%;width: 0}
