@@ -1031,8 +1031,8 @@
   align-content: center;
   justify-items: center;
   z-index: 0;
-  
 }
+
 .spacer{
   aspect-ratio: 960/540;
   width: 100%;
@@ -1042,8 +1042,7 @@
 }
 
 .layerSVG{
-  background-image: url('fondoweb.svg');  
-  
+  background-image: url('multimedia/fondoweb.svg'); 
 }
 
 .segundo{
