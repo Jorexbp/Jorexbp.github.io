@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .layerSVG{
-    background-image: url('/web/multimedia/fondoweb.svg');  
+    background-image: url('/multimedia/fondoweb.svg');  
 }
 .navBar{
     position:fixed;
