@@ -1184,7 +1184,7 @@ ul li {
     left: 0;
     right: 0;
     top: 0;
-    height: 18vh;
+    height: 50%;
     width: auto;
     border-radius: 0.5em;
     transition: all 0.4s ease-in-out;
@@ -1200,7 +1200,7 @@ ul li {
     color:#FFF;
     text-decoration: none;
     text-align: center;
-    font-size: 01em;
+    font-size: 1em;
     position: relative;
   }
   ul li a:hover{
@@ -1215,7 +1215,7 @@ ul li {
     left: 0;
     right: 0;
     top: 0;
-    height:18vh;
+    height:50%;
     width: 100vw;
     border-radius: 1em;
     transition: all 0.4s ease-in-out;
