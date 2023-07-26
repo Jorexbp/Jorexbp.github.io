@@ -28,7 +28,6 @@
 }
 .navBar{
     position:fixed;
-   
     z-index:100;
     -webkit-animation: bajar 1s;
     top:0;
