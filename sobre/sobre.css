@@ -80,6 +80,7 @@ body::-webkit-scrollbar-thumb{
     animation: glow 1s ease-in-out infinite alternate;
   }
   
+@media screen and (max-width:600px){
   ul{
     list-style: none;
     position: absolute;
@@ -87,7 +88,38 @@ body::-webkit-scrollbar-thumb{
     left: 0;
     right: 0;
     top: 0;
-    height: 8em;
+    height: 100px;
+    width: auto;
+    border-radius: 0.5em;
+    transition: all 0.4s ease-in-out;
+    opacity: 0.5;
+    background: linear-gradient(rgba(23,23,75,1) 4%, rgba(20, 135, 158, 0.381) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  ul li a{
+    display:block ;
+    padding: 2em 2em;
+    color:#FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    position: relative;
+  }
+  ul li a:hover{
+    font-size: 1.25em;
+  }
+}
+@media screen and (min-width:600px){
+  ul{
+    list-style: none;
+    position: absolute;
+    border: none;
+    left: 0;
+    right: 0;
+    top: 0;
+    height:25vh;
     width: 100vw;
     border-radius: 1em;
     transition: all 0.4s ease-in-out;
@@ -97,13 +129,20 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
     justify-content: space-around;
   }
-  ul:hover{
-    transition: opacity 0.25s ease-in-out;
-  opacity: 0.9;
+  ul li a{
+    display:block ;
+    padding: 2em 2em;
+    color:#FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 3.5vh;
+    position: relative;
   }
   ul li a:hover{
     font-size: 4vh;
   }
+}
+
   .menu > li > a:hover{
     transition: all 0.4s ease-in-out;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
