@@ -31,9 +31,8 @@ body::-webkit-scrollbar-thumb{
     background-position: center;
     background-size: cover;
 }
-
-.layerSVG{
-    background-image: url('/multimedia/fondoweb.svg');  
+.layerSVG{ 
+  background-image: url('/multimedia/fondoweb.svg');  
 }
 .navBar{
     position:fixed;
@@ -79,38 +78,38 @@ body::-webkit-scrollbar-thumb{
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
   }
-  
-@media screen and (max-width:600px){
-  ul{
-    list-style: none;
-    position: absolute;
-    border: none;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 100px;
-    width: auto;
-    border-radius: 0.5em;
-    transition: all 0.4s ease-in-out;
-    opacity: 0.5;
-    background: linear-gradient(rgba(23,23,75,1) 4%, rgba(20, 135, 158, 0.381) 100%);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+
+  @media screen and (max-width:600px){
+    ul{
+      list-style: none;
+      position: absolute;
+      border: none;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 100px;
+      width: auto;
+      border-radius: 0.5em;
+      transition: all 0.4s ease-in-out;
+      opacity: 0.5;
+      background: linear-gradient(rgba(23,23,75,1) 4%, rgba(20, 135, 158, 0.381) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    ul li a{
+      display:block ;
+      padding: 2em 2em;
+      color:#FFF;
+      text-decoration: none;
+      text-align: center;
+      font-size: 1em;
+      position: relative;
+    }
+    ul li a:hover{
+      font-size: 1.25em;
+    }
   }
-  ul li a{
-    display:block ;
-    padding: 2em 2em;
-    color:#FFF;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1em;
-    position: relative;
-  }
-  ul li a:hover{
-    font-size: 1.25em;
-  }
-}
 @media screen and (min-width:600px){
   ul{
     list-style: none;
@@ -119,8 +118,8 @@ body::-webkit-scrollbar-thumb{
     left: 0;
     right: 0;
     top: 0;
-    height:25vh;
-    width: 100vw;
+    height:125px;
+    width: auto;
     border-radius: 1em;
     transition: all 0.4s ease-in-out;
     opacity: 0.5;
@@ -131,15 +130,15 @@ body::-webkit-scrollbar-thumb{
   }
   ul li a{
     display:block ;
-    padding: 2em 2em;
+    padding: 0.5em;
     color:#FFF;
     text-decoration: none;
     text-align: center;
-    font-size: 3.5vh;
+    font-size: 1.25em;
     position: relative;
   }
   ul li a:hover{
-    font-size: 4vh;
+    font-size: 1.5em;
   }
 }
 
