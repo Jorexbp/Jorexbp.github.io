@@ -1239,24 +1239,6 @@ ul li {
   }
 }
 
-@-webkit-keyframes glow {
-from {
-  text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #28d8e8, 0 0 40px #28d8e8, 0 0 50px #28d8e8, 0 0 60px #28d8e8, 0 0 70px #28d8e8;
-}
-
-to {
-  text-shadow: 0 0 20px #fff, 0 0 30px #3719ae, 0 0 40px #3719ae, 0 0 50px #3719ae, 0 0 60px #3719ae, 0 0 70px #3719ae, 0 0 80px #3719ae;
-}
-}
-@keyframes glow{
-from {
-  text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #28d8e8, 0 0 40px #28d8e8, 0 0 50px #28d8e8, 0 0 60px #28d8e8, 0 0 70px #28d8e8;
-}
-
-to {
-  text-shadow: 0 0 20px #fff, 0 0 30px #3719ae, 0 0 40px #3719ae, 0 0 50px #3719ae, 0 0 60px #3719ae, 0 0 70px #3719ae, 0 0 80px #3719ae;
-}
-}
 
 .menu {
  display: flex;
@@ -1311,3 +1293,24 @@ to {
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
 }
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #28d8e8, 0 0 40px #28d8e8, 0 0 50px #28d8e8, 0 0 60px #28d8e8, 0 0 70px #28d8e8;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #3719ae, 0 0 40px #3719ae, 0 0 50px #3719ae, 0 0 60px #3719ae, 0 0 70px #3719ae, 0 0 80px #3719ae;
+  }
+  }
+  @keyframes glow{
+  from {
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #28d8e8, 0 0 40px #28d8e8, 0 0 50px #28d8e8, 0 0 60px #28d8e8, 0 0 70px #28d8e8;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #3719ae, 0 0 40px #3719ae, 0 0 50px #3719ae, 0 0 60px #3719ae, 0 0 70px #3719ae, 0 0 80px #3719ae;
+  }
+  }
+  
