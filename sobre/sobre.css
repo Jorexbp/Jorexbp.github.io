@@ -32,7 +32,7 @@ body::-webkit-scrollbar-thumb{
     background-size: cover;
 }
 .layerSVG{ 
-  background-image: url('/multimedia/fondoweb.svg');  
+  background-image: url('../multimedia/fondoweb.svg');  
 }
 .navBar{
     position:fixed;
@@ -244,6 +244,17 @@ ul li {
     align-items: center;
     margin: 0;
 }
+.segun{
+  z-index: 0;
+  width: 75%;
+  height: 30%;
+  top: 50%;  
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
 .blobAnimado{
     display: flex;
     align-content: center;
@@ -285,7 +296,7 @@ font-size: 1em;
   .primerTexto h1{
     position: relative;
     top:10%; 
-    right: -8em;
+    right: -8.5em;
     font-size: 2em;
   }
   
@@ -323,8 +334,9 @@ font-size: 1em;
   .primerTexto h1{
     position: relative;
     top:-10%; 
-    right: -2%;
+    right: -5%;
     font-size: 2em;
+
   }
   
   .primerTexto p{
@@ -342,8 +354,9 @@ font-size: 1em;
   .primerTexto h1{
     position: relative;
     top:-10%; 
-    right: -3%;
+    right: 0;
     font-size: 2em;
+
   }
   
   .primerTexto p{
@@ -398,14 +411,14 @@ font-size: 1em;
 @media screen and (max-width: 1010px) {
   .primerTexto h1{
     position: relative;
-    top:35%; 
+    top:34%; 
     right: 0;
-    font-size: 1.8em;
+    font-size: 1.35em;
   }
   
   .primerTexto p{
   position: relative;
-  top: 25%;
+  top: 35%;
   right: 15%;
   line-height: 2.5em;
   letter-spacing: .1em;
@@ -419,7 +432,8 @@ font-size: 1em;
     position: relative;
     top:50%; 
     right: 5%;
-    font-size: 1.6em;
+    font-size: 1.3em;
+    
   }
   
   .primerTexto p{
@@ -439,6 +453,7 @@ font-size: 1em;
     top:65%; 
     right: 5%;
     font-size: 1.3em;
+    
   }
   
   .primerTexto p{
@@ -457,7 +472,8 @@ font-size: 1em;
     position: relative;
     top:80%; 
     right: 5%;
-    font-size: 1.1em;
+    font-size: 0.9em;
+  
   }
   
   .primerTexto p{
@@ -493,19 +509,19 @@ font-size: 1em;
 @media screen and (max-width: 421px) {
   .primerTexto h1{
     position: relative;
-    top:105%; 
+    top:110%; 
     right: 5%;
-    font-size: 0.7em;
+    font-size: 0.65em;
   }
   
   .primerTexto p{
   position: relative;
-  top: 100%;
+  top: 105%;
   right: 15%;
   line-height: 2.5em;
   letter-spacing: .1em;
   max-width: 34ch;
-  font-size: 0.2em;
+  font-size: 0.19em;
   }
 }
 
