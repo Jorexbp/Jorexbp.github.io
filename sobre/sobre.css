@@ -110,38 +110,38 @@ body::-webkit-scrollbar-thumb{
       font-size: 1.25em;
     }
   }
-@media screen and (min-width:600px){
-  ul{
-    list-style: none;
-    position: absolute;
-    border: none;
-    left: 0;
-    right: 0;
-    top: 0;
-    height:125px;
-    width: auto;
-    border-radius: 1em;
-    transition: all 0.4s ease-in-out;
-    opacity: 0.5;
-    background: linear-gradient(rgba(23,23,75,1) 4%, rgba(20, 135, 158, 0.381) 100%);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  @media screen and (min-width:600px){
+    ul{
+      list-style: none;
+      position: absolute;
+      border: none;
+      left: 0;
+      right: 0;
+      top: 0;
+      height:125px;
+      width: auto;
+      border-radius: 1em;
+      transition: all 0.4s ease-in-out;
+      opacity: 0.5;
+      background: linear-gradient(rgba(23,23,75,1) 4%, rgba(20, 135, 158, 0.381) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    ul li a{
+      display:block ;
+      padding: 0.5em;
+      color:#FFF;
+      text-decoration: none;
+      text-align: center;
+      font-size: 1.25em;
+      position: relative;
+    }
+    ul li a:hover{
+      font-size: 1.5em;
+    }
   }
-  ul li a{
-    display:block ;
-    padding: 0.5em;
-    color:#FFF;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.25em;
-    position: relative;
-  }
-  ul li a:hover{
-    font-size: 1.5em;
-  }
-}
-
+  
   .menu > li > a:hover{
     transition: all 0.4s ease-in-out;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -163,6 +163,63 @@ body::-webkit-scrollbar-thumb{
     
   }
   
+
+  .menu {
+    display: flex;
+    position: relative;
+    width: fit-content; 
+    
+   }
+   
+   .menu > li > a {
+     transition: all 0.4s ease-in-out;
+     color: white;
+     
+   }
+   .menu > li > a:hover{
+     transition: all 0.4s ease-in-out;
+     
+     -webkit-animation: glow 1s ease-in-out infinite alternate;
+     -moz-animation: glow 1s ease-in-out infinite alternate;
+     animation: glow 1s ease-in-out infinite alternate;
+     
+   }
+   .menu ul {
+     height: 0;
+     left: 0;
+     opacity: 0;
+     top: 40em;
+     position: absolute;
+     transition: all .5s ease;
+     background: linear-gradient( rgba(20, 135, 158, 0.381) 100%,rgb(23, 123, 141) 100%);
+     width: fit-content;
+     color: white;
+   }
+   
+   .menu li:hover ul {
+     top: auto;
+     height: 15em;
+     opacity: 1;
+     transform: translateY(0);
+     width: fit-content; 
+   }
+   
+   .menu ul a {
+     width: fit-content;
+     color: white;
+     display: block;
+     padding: 0.5em 1em;
+   }
+   
+   .menu ul a:hover{
+     transition: all 0.4s ease-in-out;
+     -webkit-animation: glow 1s ease-in-out infinite alternate;
+     -moz-animation: glow 1s ease-in-out infinite alternate;
+     animation: glow 1s ease-in-out infinite alternate;
+   }
+   
+
+
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #28d8e8, 0 0 40px #28d8e8, 0 0 50px #28d8e8, 0 0 60px #28d8e8, 0 0 70px #28d8e8;
@@ -181,61 +238,6 @@ body::-webkit-scrollbar-thumb{
     text-shadow: 0 0 20px #fff, 0 0 30px #3719ae, 0 0 40px #3719ae, 0 0 50px #3719ae, 0 0 60px #3719ae, 0 0 70px #3719ae, 0 0 80px #3719ae;
   }
 }
-
-  .menu {
-   display: flex;
-   position: relative;
-   width: fit-content; 
-   
-  }
-  
-  .menu > li > a {
-    transition: all 0.4s ease-in-out;
-    color: white;
-    
-  }
-  .menu > li > a:hover{
-    transition: all 0.4s ease-in-out;
-    
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-    
-  }
-  .menu ul {
-    height: 0;
-    left: 0;
-    opacity: 0;
-    top: 40em;
-    position: absolute;
-    transition: all .5s ease;
-    background: linear-gradient( rgba(20, 135, 158, 0.381) 100%,rgb(23, 123, 141) 100%);
-    width: fit-content;
-    color: white;
-  }
-  
-  .menu li:hover ul {
-    top: auto;
-    height: 15em;
-    opacity: 1;
-    transform: translateY(0);
-    width: fit-content; 
-  }
-  
-  .menu ul a {
-    width: fit-content;
-    color: white;
-    display: block;
-    padding: 0.5em 1em;
-  }
-  
-  .menu ul a:hover{
-    transition: all 0.4s ease-in-out;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-}
-
 .primer{
     z-index: 0;
     width: 75%;
