@@ -161,7 +161,7 @@ ul li {
 .menu {
  display: flex;
  position: relative;
- width: fit-content; 
+ width: 15%; 
  
 }
 
