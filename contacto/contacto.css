@@ -346,8 +346,8 @@ margin: 0;
   .primerTexto h1{
     position: relative;
     top:10%; 
-    right: -8.5em;
-    font-size: 2em;
+    right: -5em;
+    font-size: 3em;
   }
   
   .primerTexto p{
@@ -357,7 +357,7 @@ margin: 0;
   line-height: 2.5em;
   letter-spacing: .1em;
   max-width: 45ch;
-  font-size: 0.9em;
+  font-size: 1em;
   }
 }
 
@@ -367,6 +367,7 @@ margin: 0;
     top:-2%; 
     right: -6%;
     font-size: 2em;
+    
   }
   
   .primerTexto p{
@@ -405,8 +406,7 @@ margin: 0;
     position: relative;
     top:-10%; 
     right: 0;
-    font-size: 2em;
-
+    font-size: 3em;
   }
   
   .primerTexto p{
@@ -416,7 +416,7 @@ margin: 0;
   line-height: 2.5em;
   letter-spacing: .1em;
   max-width: 45ch;
-  font-size: 1em;
+  font-size: 1.1em;
   }
 }
 
@@ -426,6 +426,7 @@ margin: 0;
     top:-10%; 
     right: 0;
     font-size: 2em;
+    
   }
   
   .primerTexto p{
