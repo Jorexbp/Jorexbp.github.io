@@ -41,13 +41,16 @@
   .backDiv{
     z-index: 0;
     background: linear-gradient(rgb(49, 93, 151) 6%, rgba(19, 102, 118, 0.58) 100%);
-    height: 3000px;
     width: auto;
     position: relative;
     display: flex;
     overflow: hidden;
+    background-size: cover;
+    height: 3000px;
   }
-  
+
+
+
 .spacer{
     aspect-ratio: 960/540;
     width: 100%;
@@ -271,3 +274,322 @@
     }
     }
     
+
+
+.contact{
+display: flex;
+align-items: center;
+
+justify-content: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(2000,1fr));
+}
+
+.primer{
+  z-index: 0;
+  width: 75%;
+  height: 30%;
+ 
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  left: 5%;
+}
+.primerSombra{
+  z-index: -1;
+  width: 75%;
+  height: 30%;
+  top: 1%;  
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.segun{
+z-index: 0;
+width: 75%;
+height: 30%;
+top: 50%;  
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+}
+
+
+
+
+.primerTexto{
+  z-index: 10;
+  width: 60%;
+  height: 20%;
+  color: #ffffff;
+  font-family: 'Roboto';
+  top: 20%;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+
+@media screen and (max-width: 5120px) {
+  .primerTexto h1{
+    position: relative;
+    top:10%; 
+    right: -8.5em;
+    font-size: 2em;
+  }
+  
+  .primerTexto p{
+  position: relative;
+  top:0;
+  right: -7%;
+  line-height: 2.5em;
+  letter-spacing: .1em;
+  max-width: 45ch;
+  font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 2560px) {
+  .primerTexto h1{
+    position: relative;
+    top:-2%; 
+    right: -6%;
+    font-size: 2em;
+  }
+  
+  .primerTexto p{
+  position: relative;
+  top:-3%;
+  right: -2%;
+  line-height: 2.5em;
+  letter-spacing: .1em;
+  max-width: 45ch;
+  font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1895px) {
+  .primerTexto h1{
+    position: relative;
+    top:-10%; 
+    right: -5%;
+    font-size: 2em;
+
+  }
+  
+  .primerTexto p{
+  position: relative;
+  top:-3%;
+  right: 7%;
+  line-height: 2.5em;
+  letter-spacing: .1em;
+  max-width: 45ch;
+  font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1579px) {
+  .primerTexto h1{
+    position: relative;
+    top:-10%; 
+    right: 0;
+    font-size: 2em;
+
+  }
+  
+  .primerTexto p{
+  position: relative;
+  top:-3%;
+  right: 12%;
+  line-height: 2.5em;
+  letter-spacing: .1em;
+  max-width: 45ch;
+  font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1263px) {
+  .primerTexto h1{
+    position: relative;
+    top:-10%; 
+    right: 0;
+    font-size: 2em;
+  }
+  
+  .primerTexto p{
+  position: relative;
+  top: -5%;
+  right: 15%;
+  line-height: 2.5em;
+  letter-spacing: .1em;
+  max-width: 45ch;
+  font-size: 0.95em;
+  }
+}
+
+@media screen and (max-width: 1148px) {
+  .primerTexto h1{
+    position: relative;
+    top:10%; 
+    right: 0;
+    font-size: 1.95em;
+  }
+  
+  .primerTexto p{
+  position: relative;
+  top: 10%;
+  right: 15%;
+  line-height: 2.5em;
+  letter-spacing: .1em;
+  max-width: 45ch;
+  font-size: 0.85em;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .primerTexto h1{
+    position: relative;
+    top:34%; 
+    right: 0;
+    font-size: 1.35em;
+  }
+  
+  .primerTexto p{
+  position: relative;
+  top: 35%;
+  right: 15%;
+  line-height: 2.5em;
+  letter-spacing: .1em;
+  max-width: 45ch;
+  font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 842px) {
+  .primerTexto h1{
+    position: relative;
+    top:50%; 
+    right: 5%;
+    font-size: 1.3em;
+    
+  }
+  
+  .primerTexto p{
+  position: relative;
+  top: 45%;
+  right: 15%;
+  line-height: 2.5em;
+  letter-spacing: .1em;
+  max-width: 45ch;
+  font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 722px) {
+  .primerTexto h1{
+    position: relative;
+    top:65%; 
+    right: 5%;
+    font-size: 1.3em;
+    
+  }
+  
+  .primerTexto p{
+  position: relative;
+  top: 60%;
+  right: 15%;
+  line-height: 2.5em;
+  letter-spacing: .1em;
+  max-width: 45ch;
+  font-size: 0.5em;
+  }
+}
+
+@media screen and (max-width: 631px) {
+  .primerTexto h1{
+    position: relative;
+    top:80%; 
+    right: 5%;
+    font-size: 0.9em;
+  
+  }
+  
+  .primerTexto p{
+  position: relative;
+  top: 75%;
+  right: 15%;
+  line-height: 2.5em;
+  letter-spacing: .1em;
+  max-width: 45ch;
+  font-size: 0.4em;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .primerTexto h1{
+    position: relative;
+    top:95%; 
+    right: 5%;
+    font-size: 0.9em;
+  }
+  
+  .primerTexto p{
+  position: relative;
+  top: 85%;
+  right: 15%;
+  line-height: 2.5em;
+  letter-spacing: .1em;
+  max-width: 45ch;
+  font-size: 0.3em;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  .primerTexto h1{
+    position: relative;
+    top:110%; 
+    right: 5%;
+    font-size: 0.65em;
+  }
+  
+  .primerTexto p{
+  position: relative;
+  top: 105%;
+  right: 15%;
+  line-height: 2.5em;
+  letter-spacing: .1em;
+  max-width: 34ch;
+  font-size: 0.19em;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .primerTexto h1{
+    position: relative;
+    top:115%; 
+    right: 5%;
+    font-size: 0.6em;
+  }
+  
+  .primerTexto p{
+  position: relative;
+  top: 107%;
+  right: 15%;
+  line-height: 3em;
+  letter-spacing: .1em;
+  max-width: 27ch;
+  font-size: 0.1em;
+  }
+}

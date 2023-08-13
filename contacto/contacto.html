@@ -1,38 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Azul glu glu Azulito</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="contacto.css">
-        <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
-      </head>
-<body>
-    <section class="backDiv spacer layerSVG">
 
-        <div class="navBar hidNav">
-          <ul>
-            <li><a class="navItem" href="index.html">Inicio</a></li>
-            <li><a class="navItem" href="../sobre/sobre.html">Sobre mí</a></li>
-            <ul class="menu">
-              <li>
-                <a href="#">Proyectos</a>
-    
-                <ul>
-                  <li><a href="#">Editor de texto</a></li>
-                  <li><a href="#">SIE</a></li>
-                  <li><a href="#">Emulador de SO</a></li>
-    
-                </ul>
-              </li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Azul glu glu Azulito</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="contacto.css">
+  <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+</head>
+
+<body>
+  <section class="backDiv spacer layerSVG">
+
+    <div class="navBar hidNav">
+      <ul>
+        <li><a class="navItem" href="index.html">Inicio</a></li>
+        <li><a class="navItem" href="../sobre/sobre.html">Sobre mí</a></li>
+        <ul class="menu">
+          <li>
+            <a href="#">Proyectos</a>
+
+            <ul>
+              <li><a href="#">Editor de texto</a></li>
+              <li><a href="#">SIE</a></li>
+              <li><a href="#">Emulador de SO</a></li>
+
             </ul>
-            <li> <a class="navItem" href="#">Contacto</a></li>
-          </ul>
-        </div>
-        <script src="contacto.js"></script>
+          </li>
+        </ul>
+        <li> <a class="navItem" href="#">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="primer hidden">
+      <svg class="blobAnimado" id="visual" viewBox="0 0 900 600" width="900" height="55s0" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+          <g transform="translate(450.25685571071824 255.55930989230006)">
+              <path id = "blob1"
+                  d="M268 -138.3C331.1 -45.5 354.8 86.5 303.5 190.6C252.3 294.7 126.2 370.8 -1.9 371.9C-129.9 373 -259.8 299 -308.5 196.4C-357.2 93.7 -324.8 -37.5 -259.8 -131.3C-194.9 -225.2 -97.4 -281.6 2.5 -283C102.5 -284.5 205 -231 268 -138.3"
+                  fill="#4FACF7"></path>
+          </g>
+          <g transform="translate(465.18710936946184 265.7400496568554)" style = "visibility:hidden;"><path id = "blob2" d="M253.7 -157.2C302.4 -62.1 297.3 53.3 246.1 157.9C194.9 262.5 97.4 356.3 -11.9 363.1C-121.2 370 -242.5 290 -306.3 178.2C-370.1 66.3 -376.4 -77.3 -315.8 -179.3C-255.2 -281.3 -127.6 -341.7 -12.6 -334.4C102.5 -327.2 205 -252.3 253.7 -157.2" fill="#4FACF7"></path></g>
+      </svg>
+
+      <script>
+          const tween = KUTE.fromTo(
+            '#blob1',
+            {path:'#blob1'},
+            {path:'#blob2'},
+            {repeat:999,duration : 3000,yoyo:true}
+          )
+          tween.start()
+        </script>
+
+<div class = "primerTexto hidden">
+  <h1>Contacto</h1><br/>
+  Si estás interesad@ en ponerte en contacto conmigo ya sea para alguna oferta de trabajo, colaboración o ayudarme a mejorar esta página web, no dudes en 
+  hacerlo a través de los siguientes métodos:<br><br>
+  Teléfono: +34 601 27 10 78<br>
+  Email: jorgebp2004@gmail.com<br>
+  LinkedIn:<a href="https://www.linkedin.com/in/jorge-barba-polan" target="_blank"><i>Pínchame</i></a><br>
+
+  <p>
+
+  </p>
+ </div>
+      
+  </div>
+  <div class="primerSombra hidden">
+    <svg class="blobAnimado" id="visual" viewBox="0 0 900 600" width="900" height="55s0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        <g transform="translate(450.25685571071824 255.55930989230006)">
+            <path id = "som1"
+                d="M268 -138.3C331.1 -45.5 354.8 86.5 303.5 190.6C252.3 294.7 126.2 370.8 -1.9 371.9C-129.9 373 -259.8 299 -308.5 196.4C-357.2 93.7 -324.8 -37.5 -259.8 -131.3C-194.9 -225.2 -97.4 -281.6 2.5 -283C102.5 -284.5 205 -231 268 -138.3"
+                fill="#2b6696"></path>
+        </g>
+        <g transform="translate(465.18710936946184 265.7400496568554)" style = "visibility:hidden;"><path id = "som2" d="M253.7 -157.2C302.4 -62.1 297.3 53.3 246.1 157.9C194.9 262.5 97.4 356.3 -11.9 363.1C-121.2 370 -242.5 290 -306.3 178.2C-370.1 66.3 -376.4 -77.3 -315.8 -179.3C-255.2 -281.3 -127.6 -341.7 -12.6 -334.4C102.5 -327.2 205 -252.3 253.7 -157.2" fill="#2b6696"></path></g>
+    </svg>
+
+    <script>
+        const tweenSom1 = KUTE.fromTo(
+          '#som1',
+          {path:'#som1'},
+          {path:'#som2'},
+          {repeat:999,duration : 3000,yoyo:true}
+        )
+        tweenSom1.start()
+      </script>
+    
+</div>
+
+
+  <div class="segun hidden">
+      <svg class="blobAnimado" id="visual" viewBox="0 0 900 600" width="900" height="55s0" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+          <g transform="translate(450.25685571071824 255.55930989230006)">
+              <path id = "blob3"
+                  d="M268 -138.3C331.1 -45.5 354.8 86.5 303.5 190.6C252.3 294.7 126.2 370.8 -1.9 371.9C-129.9 373 -259.8 299 -308.5 196.4C-357.2 93.7 -324.8 -37.5 -259.8 -131.3C-194.9 -225.2 -97.4 -281.6 2.5 -283C102.5 -284.5 205 -231 268 -138.3"
+                  fill="#4FACF7"></path>
+          </g>
+          <g transform="translate(465.18710936946184 265.7400496568554)" style = "visibility:hidden;"><path id = "blob4" d="M253.7 -157.2C302.4 -62.1 297.3 53.3 246.1 157.9C194.9 262.5 97.4 356.3 -11.9 363.1C-121.2 370 -242.5 290 -306.3 178.2C-370.1 66.3 -376.4 -77.3 -315.8 -179.3C-255.2 -281.3 -127.6 -341.7 -12.6 -334.4C102.5 -327.2 205 -252.3 253.7 -157.2" fill="#4FACF7"></path></g>
+      </svg>
+
+      <script>
+          const tween2 = KUTE.fromTo(
+            '#blob3',
+            {path:'#blob3'},
+            {path:'#blob4'},
+            {repeat:999,duration : 3000,yoyo:true}
+          )
+          tween2.start()
+        </script>
+      
+  </div>
+    <script src="contacto.js"></script>
 </body>
+
 </html>
