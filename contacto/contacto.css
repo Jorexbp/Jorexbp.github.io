@@ -368,9 +368,16 @@ right: -5%;
   padding: 0;
   position: absolute;
 }
-.segunTexto img{
+#imagen{
   position: absolute;
   right: 45%;
+}
+#gif{
+  width: 75%;
+  top: 125%;
+  right: 15%;
+  position: absolute;
+  visibility: hidden;
 }
 
 @media screen and (max-width: 5120px) {
