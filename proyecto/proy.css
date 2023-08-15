@@ -304,7 +304,489 @@
     margin: 0;
     opacity: 0.5;
 }
-.Editor{
-   position: relative;
-   top:10%;
-}
+
+.primerTexto{
+    z-index: 10;
+    width: 60%;
+    height: 20%;
+    color: #ffffff;
+    font-family: 'Roboto';
+    top: 10%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+
+  
+
+@media screen and (max-width: 5120px) {
+    .primerTexto h1{
+      position: relative;
+      top:-5%; 
+      right: 6em;
+      font-size: 2em;
+    }
+    
+    .primerTexto p{
+    position: relative;
+    top:0;
+    right: 12%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 1em;
+    }
+    .segunTexto h1{
+      position: relative;
+      top:10%; 
+      right: -5em;
+      font-size: 3em;
+    }
+    .segunTexto p{
+      position: relative;
+      top:0;
+      right: -7%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 45ch;
+      font-size: 1em;
+      }
+  }
+  
+  @media screen and (max-width: 2560px) {
+    .primerTexto h1{
+      position: relative;
+      top:0; 
+      right: 15%;
+      font-size: 2em;
+    }
+    
+    .primerTexto p{
+    position: relative;
+    top:3%;
+    right: 19%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 1em;
+    }
+    .segun h1{
+      position: relative;
+      top:-2%; 
+      right: -6%;
+      font-size: 2em;
+      
+    }
+  
+    .segunTexto p{
+      position: relative;
+      top:-3%;
+      right: -2%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 45ch;
+      font-size: 1em;
+      }
+  }
+  
+  @media screen and (max-width: 1895px) {
+    .primerTexto h1{
+      position: relative;
+      top:-8%; 
+      right: 15%;
+      font-size: 2em;
+    }
+    
+    .primerTexto p{
+    position: relative;
+    top:3%;
+    right: 23%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 1em;
+    }
+    .segunTexto h1{
+      position: relative;
+      top:-10%; 
+      right: -5%;
+      font-size: 2em;
+  
+    }
+    .segunTexto p{
+      position: relative;
+      top:-3%;
+      right: 7%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 45ch;
+      font-size: 1em;
+      }
+  }
+  
+  @media screen and (max-width: 1579px) {
+    .primerTexto h1{
+      position: relative;
+      top:-5%; 
+      right: 25%;
+      font-size: 3em;
+    }
+    
+    .primerTexto p{
+    position: relative;
+    top:-3%;
+    right: 30%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 1.1em;
+    }
+    .segunTexto h1{
+      position: relative;
+      top:-10%; 
+      right: 0;
+      font-size: 3em;
+    }
+    
+    .segunTexto p{
+    position: relative;
+    top:-3%;
+    right: 12%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 1.1em;
+    }
+  }
+  
+  @media screen and (max-width: 1263px) {
+    .primerTexto h1{
+      position: relative;
+      top:-5%; 
+      right: 15%;
+      font-size: 2em;
+    }
+    
+    .primerTexto p{
+    position: relative;
+    top: 2%;
+    right: 30%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.95em;
+    }
+    .segunTexto h1{
+      position: relative;
+      top:-10%; 
+      right: 0;
+      font-size: 2em;
+      
+    }
+    
+    .segunTexto p{
+    position: relative;
+    top: -5%;
+    right: 15%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.95em;
+    }
+  }
+  
+  @media screen and (max-width: 1148px) {
+    .primerTexto h1{
+      position: relative;
+      top:0; 
+      right: 20%;
+      font-size: 1.95em;
+    }
+    
+    .primerTexto p{
+    position: relative;
+    top: 5%;
+    right: 28%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.85em;
+    }
+    .segunTexto h1{
+      position: relative;
+      top:10%; 
+      right: 0;
+      font-size: 1.95em;
+    }
+    
+    .segunTexto p{
+    position: relative;
+    top: 10%;
+    right: 15%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.85em;
+    }
+  }
+  
+  @media screen and (max-width: 1010px) {
+    .primerTexto h1{
+      position: relative;
+      top:8%; 
+      right: 15%;
+      font-size: 1.35em;
+    }
+    
+    .primerTexto p{
+    position: relative;
+    top: 13%;
+    right: 25%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.7em;
+    }
+    .segunTexto h1{
+      position: relative;
+      top:34%; 
+      right: 0;
+      font-size: 1.35em;
+    }
+    
+    .segunTexto p{
+    position: relative;
+    top: 35%;
+    right: 15%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.7em;
+    }
+  }
+  
+  @media screen and (max-width: 842px) {
+    .primerTexto h1{
+      position: relative;
+      top:15%; 
+      right: 20%;
+      font-size: 1.3em;
+      
+    }
+    
+    .primerTexto p{
+    position: relative;
+    top: 20%;
+    right: 27%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.6em;
+    }
+    .segunTexto h1{
+      position: relative;
+      top:50%; 
+      right: 5%;
+      font-size: 1.3em;
+      
+    }
+    
+    .segunTexto p{
+    position: relative;
+    top: 45%;
+    right: 15%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.6em;
+    }
+  }
+  
+  @media screen and (max-width: 722px) {
+    .primerTexto h1{
+        position: relative;
+        top:15%; 
+        right: 20%;
+        font-size: 1.3em;
+        
+      }
+      
+      .primerTexto p{
+      position: relative;
+      top: 20%;
+      right: 30%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 45ch;
+      font-size: 0.59em;
+      }
+    .segunTexto h1{
+      position: relative;
+      top:65%; 
+      right: 5%;
+      font-size: 1.3em;
+      
+    }
+    
+    .segunTexto p{
+    position: relative;
+    top: 60%;
+    right: 15%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.5em;
+    }
+  }
+  
+  @media screen and (max-width: 631px) {
+    .primerTexto h1{
+        position: relative;
+        top:22%; 
+        right: 20%;
+        font-size: 1.1em;
+        
+      }
+      
+      .primerTexto p{
+      position: relative;
+      top: 25%;
+      right: 30%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 45ch;
+      font-size: 0.45em;
+      }
+    .segunTexto h1{
+      position: relative;
+      top:80%; 
+      right: 5%;
+      font-size: 0.9em;
+    
+    }
+    
+    .segunTexto p{
+    position: relative;
+    top: 75%;
+    right: 15%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.4em;
+    }
+  }
+  
+  @media screen and (max-width: 505px) {
+    .primerTexto h1{
+        position: relative;
+        top:25%; 
+        right: 20%;
+        font-size: 0.9em;
+        
+      }
+      
+      .primerTexto p{
+      position: relative;
+      top: 28%;
+      right: 30%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 45ch;
+      font-size: 0.4em;
+      }
+    .segunTexto h1{
+      position: relative;
+      top:95%; 
+      right: 5%;
+      font-size: 0.9em;
+    }
+    
+    .segunTexto p{
+    position: relative;
+    top: 85%;
+    right: 15%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.3em;
+    }
+  }
+  
+  @media screen and (max-width: 421px) {
+    .primerTexto h1{
+        position: relative;
+        top:28%; 
+        right: 20%;
+        font-size: 0.7em;
+        
+      }
+      
+      .primerTexto p{
+      position: relative;
+      top: 30%;
+      right: 30%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      font-size: 0.25em;
+      }
+    .segunTexto h1{
+      position: relative;
+      top:110%; 
+      right: 5%;
+      font-size: 0.65em;
+    }
+    
+    .segunTexto p{
+    position: relative;
+    top: 105%;
+    right: 15%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 34ch;
+    font-size: 0.19em;
+    }
+  }
+  
+  @media screen and (max-width: 315px) {
+    .primerTexto h1{
+        position: relative;
+        top:32%; 
+        right: 20%;
+        font-size: 0.5em;
+        
+      }
+      
+      .primerTexto p{
+      position: relative;
+      top: 33%;
+      right: 30%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 25ch;
+      font-size: 0.14em;
+      }
+    .segunTexto h1{
+      position: relative;
+      top:115%; 
+      right: 5%;
+      font-size: 0.6em;
+    }
+    
+    .segunTexto p{
+    position: relative;
+    top: 107%;
+    right: 15%;
+    line-height: 3em;
+    letter-spacing: .1em;
+    max-width: 27ch;
+    font-size: 0.1em;
+    }
+  }
+  
+  #imagen{
+    position: absolute;
+    right: 35%;
+    
+  }
