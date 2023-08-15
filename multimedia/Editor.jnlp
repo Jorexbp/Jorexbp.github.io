@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="1.0+" codebase="https://jorexbp.github.io/proyecto/proy.html" href="Editor.jnlp">
+<jnlp spec="1.0+" codebase="https://jorexbp.github.io/multimedia" href="Editor.jnlp">
 <information>
 	<title>Editor de texto</title>
 	<vendor>Jorge<vendor>
