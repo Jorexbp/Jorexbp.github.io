@@ -317,8 +317,31 @@
     padding: 0;
     position: absolute;
   }
-
-  
+.segun{
+  z-index: 0;
+  width: 75%;
+  height: 30%;
+  top: 30%; 
+  right: -8%; 
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.segunSombra{
+  z-index: -1;
+  width: 65%;
+  height: 32%;
+  right: -8%;
+  top: 31%;  
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  opacity: 0.5;
+}
 
 @media screen and (max-width: 5120px) {
     .primerTexto h1{
@@ -788,5 +811,4 @@
   #imagen{
     position: absolute;
     right: 35%;
-    
   }
