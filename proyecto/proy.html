@@ -1,149 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Azul glu glu Azulito</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="proy.css">
-        <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
-      </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Azul glu glu Azulito</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="proy.css">
+  <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+</head>
+
 <body>
-    <section class="backDiv spacer layerSVG">
+  <section class="backDiv spacer layerSVG">
 
-        <div class="navBar hidNav">
-          <ul>
-            <li><a class="navItem" href="../index.html">Inicio</a></li>
-            <li><a class="navItem" href="../sobre/sobre.html">Sobre mí</a></li>
-            <ul class="menu">
-              <li>
-                <a href="">Proyectos</a>
-    
-                <ul>
-                  <li><a href="#">Editor de texto</a></li>
-                  <li><a href="#">SIE</a></li>
-                  <li><a href="#">Emulador de SO</a></li>
-    
-                </ul>
-              </li>
+    <div class="navBar hidNav">
+      <ul>
+        <li><a class="navItem" href="../index.html">Inicio</a></li>
+        <li><a class="navItem" href="../sobre/sobre.html">Sobre mí</a></li>
+        <ul class="menu">
+          <li>
+            <a href="">Proyectos</a>
+
+            <ul>
+              <li><a href="#">Editor de texto</a></li>
+              <li><a href="#">SIE</a></li>
+              <li><a href="#">Emulador de SO</a></li>
+
             </ul>
-            <li> <a class="navItem" href="../contacto/contacto.html">Contacto</a></li>
-          </ul>
-        </div>
-        
+          </li>
+        </ul>
+        <li> <a class="navItem" href="../contacto/contacto.html">Contacto</a></li>
+      </ul>
+    </div>
 
-        <div class="primer hidden">
-            <svg class="blobAnimado" id="visual" viewBox="0 0 900 600" width="900" height="55s0" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-                <g transform="translate(450.25685571071824 255.55930989230006)">
-                    <path id = "blob1"
-                        d="M268 -138.3C331.1 -45.5 354.8 86.5 303.5 190.6C252.3 294.7 126.2 370.8 -1.9 371.9C-129.9 373 -259.8 299 -308.5 196.4C-357.2 93.7 -324.8 -37.5 -259.8 -131.3C-194.9 -225.2 -97.4 -281.6 2.5 -283C102.5 -284.5 205 -231 268 -138.3"
-                        fill="#4FACF7"></path>
-                </g>
-                <g transform="translate(465.18710936946184 265.7400496568554)" style = "visibility:hidden;"><path id = "blob2" d="M253.7 -157.2C302.4 -62.1 297.3 53.3 246.1 157.9C194.9 262.5 97.4 356.3 -11.9 363.1C-121.2 370 -242.5 290 -306.3 178.2C-370.1 66.3 -376.4 -77.3 -315.8 -179.3C-255.2 -281.3 -127.6 -341.7 -12.6 -334.4C102.5 -327.2 205 -252.3 253.7 -157.2" fill="#4FACF7"></path></g>
-            </svg>
 
-            <script>
-                const tween = KUTE.fromTo(
-                  '#blob1',
-                  {path:'#blob1'},
-                  {path:'#blob2'},
-                  {repeat:999,duration : 3000,yoyo:true}
-                )
-                tween.start()
-              </script>
-           
-        </div>
-        <div class="primerSombra hidden">
-            <svg class="blobAnimado" id="visual" viewBox="0 0 900 600" width="900" height="55s0" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-                <g transform="translate(450.25685571071824 255.55930989230006)">
-                    <path id = "blobSom1"
-                        d="M268 -138.3C331.1 -45.5 354.8 86.5 303.5 190.6C252.3 294.7 126.2 370.8 -1.9 371.9C-129.9 373 -259.8 299 -308.5 196.4C-357.2 93.7 -324.8 -37.5 -259.8 -131.3C-194.9 -225.2 -97.4 -281.6 2.5 -283C102.5 -284.5 205 -231 268 -138.3"
-                        fill="#2b6696"></path>
-                </g>
-                <g transform="translate(465.18710936946184 265.7400496568554)" style = "visibility:hidden;"><path id = "blobSom2" d="M253.7 -157.2C302.4 -62.1 297.3 53.3 246.1 157.9C194.9 262.5 97.4 356.3 -11.9 363.1C-121.2 370 -242.5 290 -306.3 178.2C-370.1 66.3 -376.4 -77.3 -315.8 -179.3C-255.2 -281.3 -127.6 -341.7 -12.6 -334.4C102.5 -327.2 205 -252.3 253.7 -157.2" fill="#2b6696"></path></g>
-            </svg>
+    <div class="primer hidden">
+      <svg class="blobAnimado" id="visual" viewBox="0 0 900 600" width="900" height="55s0"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        <g transform="translate(450.25685571071824 255.55930989230006)">
+          <path id="blob1"
+            d="M268 -138.3C331.1 -45.5 354.8 86.5 303.5 190.6C252.3 294.7 126.2 370.8 -1.9 371.9C-129.9 373 -259.8 299 -308.5 196.4C-357.2 93.7 -324.8 -37.5 -259.8 -131.3C-194.9 -225.2 -97.4 -281.6 2.5 -283C102.5 -284.5 205 -231 268 -138.3"
+            fill="#4FACF7"></path>
+        </g>
+        <g transform="translate(465.18710936946184 265.7400496568554)" style="visibility:hidden;">
+          <path id="blob2"
+            d="M253.7 -157.2C302.4 -62.1 297.3 53.3 246.1 157.9C194.9 262.5 97.4 356.3 -11.9 363.1C-121.2 370 -242.5 290 -306.3 178.2C-370.1 66.3 -376.4 -77.3 -315.8 -179.3C-255.2 -281.3 -127.6 -341.7 -12.6 -334.4C102.5 -327.2 205 -252.3 253.7 -157.2"
+            fill="#4FACF7"></path>
+        </g>
+      </svg>
 
-            <script>
-                const tweenSom = KUTE.fromTo(
-                  '#blobSom1',
-                  {path:'#blobSom1'},
-                  {path:'#blobSom2'},
-                  {repeat:999,duration : 3000,yoyo:true}
-                )
-                tweenSom.start()
-              </script>
-           
-        </div>
-        <div class="primerTexto hidden">
-            <h1>
-                Editor de Texto
-            </h1>
-            <p>
-                En esta aplicación recreé el Bloc de Notas que todos conocemos y añadí
-                algunas funcionalidades que a mi me gustaría que un editor de texto tuviera
-                cómo puede ser el cambio de tamaño de letras o un menu de carácteres especiales
-                integrado en el mismo.
-                <br><br>
-                <a href="https://jorexbp.github.io/multimedia/Editor_de_texto.jar">
-                    <img id="imagen" src="../multimedia/Icono_Bloc_Jorge.png" width="50%">
-                   </a>
-            </p>
-          
-        </div>
+      <script>
+        const tween = KUTE.fromTo(
+          '#blob1',
+          { path: '#blob1' },
+          { path: '#blob2' },
+          { repeat: 999, duration: 3000, yoyo: true }
+        )
+        tween.start()
+      </script>
 
-        <div class="segun hidden">
-          <svg class="blobAnimado" id="visual" viewBox="0 0 900 600" width="900" height="55s0" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-              <g transform="translate(450.25685571071824 255.55930989230006)">
-                  <path id = "blob01"
-                      d="M268 -138.3C331.1 -45.5 354.8 86.5 303.5 190.6C252.3 294.7 126.2 370.8 -1.9 371.9C-129.9 373 -259.8 299 -308.5 196.4C-357.2 93.7 -324.8 -37.5 -259.8 -131.3C-194.9 -225.2 -97.4 -281.6 2.5 -283C102.5 -284.5 205 -231 268 -138.3"
-                      fill="#4FACF7"></path>
-              </g>
-              <g transform="translate(465.18710936946184 265.7400496568554)" style = "visibility:hidden;"><path id = "blob02" d="M253.7 -157.2C302.4 -62.1 297.3 53.3 246.1 157.9C194.9 262.5 97.4 356.3 -11.9 363.1C-121.2 370 -242.5 290 -306.3 178.2C-370.1 66.3 -376.4 -77.3 -315.8 -179.3C-255.2 -281.3 -127.6 -341.7 -12.6 -334.4C102.5 -327.2 205 -252.3 253.7 -157.2" fill="#4FACF7"></path></g>
-          </svg>
+    </div>
+    <div class="primerSombra hidden">
+      <svg class="blobAnimado" id="visual" viewBox="0 0 900 600" width="900" height="55s0"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        <g transform="translate(450.25685571071824 255.55930989230006)">
+          <path id="blobSom1"
+            d="M268 -138.3C331.1 -45.5 354.8 86.5 303.5 190.6C252.3 294.7 126.2 370.8 -1.9 371.9C-129.9 373 -259.8 299 -308.5 196.4C-357.2 93.7 -324.8 -37.5 -259.8 -131.3C-194.9 -225.2 -97.4 -281.6 2.5 -283C102.5 -284.5 205 -231 268 -138.3"
+            fill="#2b6696"></path>
+        </g>
+        <g transform="translate(465.18710936946184 265.7400496568554)" style="visibility:hidden;">
+          <path id="blobSom2"
+            d="M253.7 -157.2C302.4 -62.1 297.3 53.3 246.1 157.9C194.9 262.5 97.4 356.3 -11.9 363.1C-121.2 370 -242.5 290 -306.3 178.2C-370.1 66.3 -376.4 -77.3 -315.8 -179.3C-255.2 -281.3 -127.6 -341.7 -12.6 -334.4C102.5 -327.2 205 -252.3 253.7 -157.2"
+            fill="#2b6696"></path>
+        </g>
+      </svg>
 
-          <script>
-              const tween01 = KUTE.fromTo(
-                '#blob01',
-                {path:'#blob01'},
-                {path:'#blob02'},
-                {repeat:999,duration : 3000,yoyo:true}
-              )
-              tween01.start()
-            </script>
-         
+      <script>
+        const tweenSom = KUTE.fromTo(
+          '#blobSom1',
+          { path: '#blobSom1' },
+          { path: '#blobSom2' },
+          { repeat: 999, duration: 3000, yoyo: true }
+        )
+        tweenSom.start()
+      </script>
+
+    </div>
+    <div class="primerTexto hidden">
+      <h1>
+        Editor de Texto
+      </h1>
+      <p>
+        En esta aplicación recreé el Bloc de Notas que todos conocemos y añadí
+        algunas funcionalidades que a mi me gustaría que un editor de texto tuviera
+        cómo puede ser el cambio de tamaño de letras o un menu de carácteres especiales
+        integrado en el mismo.
+        <br><br>
+        <a href="https://jorexbp.github.io/multimedia/Editor_de_texto.jar">
+          <img id="imagen" src="../multimedia/Icono_Bloc_Jorge.png" width="50%">
+        </a>
+      </p>
+
+    </div>
+
+    <div class="segun hidden">
+      <svg class="blobAnimado" id="visual" viewBox="0 0 900 600" width="900" height="55s0"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        <g transform="translate(450.25685571071824 255.55930989230006)">
+          <path id="blob01"
+            d="M268 -138.3C331.1 -45.5 354.8 86.5 303.5 190.6C252.3 294.7 126.2 370.8 -1.9 371.9C-129.9 373 -259.8 299 -308.5 196.4C-357.2 93.7 -324.8 -37.5 -259.8 -131.3C-194.9 -225.2 -97.4 -281.6 2.5 -283C102.5 -284.5 205 -231 268 -138.3"
+            fill="#4FACF7"></path>
+        </g>
+        <g transform="translate(465.18710936946184 265.7400496568554)" style="visibility:hidden;">
+          <path id="blob02"
+            d="M253.7 -157.2C302.4 -62.1 297.3 53.3 246.1 157.9C194.9 262.5 97.4 356.3 -11.9 363.1C-121.2 370 -242.5 290 -306.3 178.2C-370.1 66.3 -376.4 -77.3 -315.8 -179.3C-255.2 -281.3 -127.6 -341.7 -12.6 -334.4C102.5 -327.2 205 -252.3 253.7 -157.2"
+            fill="#4FACF7"></path>
+        </g>
+      </svg>
+
+      <script>
+        const tween01 = KUTE.fromTo(
+          '#blob01',
+          { path: '#blob01' },
+          { path: '#blob02' },
+          { repeat: 999, duration: 3000, yoyo: true }
+        )
+        tween01.start()
+      </script>
+      <div class="segunTexto hidden">
+        <h1>
+          Emulador de SO
+        </h1>
+        <p>
+          En este programa, intento emular un sistema compuesto de unas pocas aplicaciones como un gestor de hoteles, un
+          reproductor de música...<br>
+          Empleé solamenta Java junto a algunas apis para ciertas funcionalidades, si quieres descargarlo te recomiendo
+          que le des un vistazo a la documentación sobre este <a target="_blank"
+            href="https://github.com/Jorexbp/Simulador-SO"><i>aquí</i></a>
+          <br><br>
+          <a target="_blank" href="https://drive.google.com/drive/folders/1jWO-51LkPZmnN129cVNi2JZSkpLDmwyk?lfhs=2">
+            <img id="imagen" src="../multimedia/icon_home.png" width="40%">
+          </a>
+        </p>
+
       </div>
-      <div class="segunSombra hidden">
-          <svg class="blobAnimado" id="visual" viewBox="0 0 900 600" width="900" height="55s0" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-              <g transform="translate(450.25685571071824 255.55930989230006)">
-                  <path id = "blobSom01"
-                      d="M268 -138.3C331.1 -45.5 354.8 86.5 303.5 190.6C252.3 294.7 126.2 370.8 -1.9 371.9C-129.9 373 -259.8 299 -308.5 196.4C-357.2 93.7 -324.8 -37.5 -259.8 -131.3C-194.9 -225.2 -97.4 -281.6 2.5 -283C102.5 -284.5 205 -231 268 -138.3"
-                      fill="#2b6696"></path>
-              </g>
-              <g transform="translate(465.18710936946184 265.7400496568554)" style = "visibility:hidden;"><path id = "blobSom02" d="M253.7 -157.2C302.4 -62.1 297.3 53.3 246.1 157.9C194.9 262.5 97.4 356.3 -11.9 363.1C-121.2 370 -242.5 290 -306.3 178.2C-370.1 66.3 -376.4 -77.3 -315.8 -179.3C-255.2 -281.3 -127.6 -341.7 -12.6 -334.4C102.5 -327.2 205 -252.3 253.7 -157.2" fill="#2b6696"></path></g>
-          </svg>
 
-          <script>
-              const tweenSom01 = KUTE.fromTo(
-                '#blobSom01',
-                {path:'#blobSom01'},
-                {path:'#blobSom02'},
-                {repeat:999,duration : 3000,yoyo:true}
-              )
-              tweenSom01.start()
-            </script>
-         
-      </div>
-        
-        
-        <script src = "proy.js"></script>
+
+    </div>
+    <div class="segunSombra hidden">
+      <svg class="blobAnimado" id="visual" viewBox="0 0 900 600" width="900" height="55s0"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        <g transform="translate(450.25685571071824 255.55930989230006)">
+          <path id="blobSom01"
+            d="M268 -138.3C331.1 -45.5 354.8 86.5 303.5 190.6C252.3 294.7 126.2 370.8 -1.9 371.9C-129.9 373 -259.8 299 -308.5 196.4C-357.2 93.7 -324.8 -37.5 -259.8 -131.3C-194.9 -225.2 -97.4 -281.6 2.5 -283C102.5 -284.5 205 -231 268 -138.3"
+            fill="#2b6696"></path>
+        </g>
+        <g transform="translate(465.18710936946184 265.7400496568554)" style="visibility:hidden;">
+          <path id="blobSom02"
+            d="M253.7 -157.2C302.4 -62.1 297.3 53.3 246.1 157.9C194.9 262.5 97.4 356.3 -11.9 363.1C-121.2 370 -242.5 290 -306.3 178.2C-370.1 66.3 -376.4 -77.3 -315.8 -179.3C-255.2 -281.3 -127.6 -341.7 -12.6 -334.4C102.5 -327.2 205 -252.3 253.7 -157.2"
+            fill="#2b6696"></path>
+        </g>
+      </svg>
+
+      <script>
+        const tweenSom01 = KUTE.fromTo(
+          '#blobSom01',
+          { path: '#blobSom01' },
+          { path: '#blobSom02' },
+          { repeat: 999, duration: 3000, yoyo: true }
+        )
+        tweenSom01.start()
+      </script>
+
+    </div>
+
+
+    <script src="proy.js"></script>
 
 
 </body>
+
 </html>

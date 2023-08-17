@@ -3,7 +3,10 @@ entr.forEach((ent) => {
     if(ent.isIntersecting){
         if((ent.target.className.indexOf('hidNav') != -1)){
             ent.target.classList.add('showNav');
-        }else{
+        }else if(ent.target.className == 'segunSombra'){
+            ent.target.classList.add('showSom');
+        }
+        else{
             ent.target.classList.add('show');
         }
 
