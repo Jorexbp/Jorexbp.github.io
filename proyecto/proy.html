@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="proy.css">
   <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+  <link rel="icon" href="/multimedia/ico web.png">
 </head>
 
 <body>
@@ -26,8 +27,8 @@
 
             <ul>
               <li><a href="#">Editor de texto</a></li>
-              <li><a href="#">SIE</a></li>
               <li><a href="#">Emulador de SO</a></li>
+              <li><a href="#">Página Web</a></li>
 
             </ul>
           </li>
@@ -176,6 +177,75 @@
       </script>
 
     </div>
+
+    <div class="tercer hidden">
+      <svg class="blobAnimado" id="visual" viewBox="0 0 900 600" width="900" height="55s0"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        <g transform="translate(450.25685571071824 255.55930989230006)">
+          <path id="blob31"
+            d="M268 -138.3C331.1 -45.5 354.8 86.5 303.5 190.6C252.3 294.7 126.2 370.8 -1.9 371.9C-129.9 373 -259.8 299 -308.5 196.4C-357.2 93.7 -324.8 -37.5 -259.8 -131.3C-194.9 -225.2 -97.4 -281.6 2.5 -283C102.5 -284.5 205 -231 268 -138.3"
+            fill="#4FACF7"></path>
+        </g>
+        <g transform="translate(465.18710936946184 265.7400496568554)" style="visibility:hidden;">
+          <path id="blob32"
+            d="M253.7 -157.2C302.4 -62.1 297.3 53.3 246.1 157.9C194.9 262.5 97.4 356.3 -11.9 363.1C-121.2 370 -242.5 290 -306.3 178.2C-370.1 66.3 -376.4 -77.3 -315.8 -179.3C-255.2 -281.3 -127.6 -341.7 -12.6 -334.4C102.5 -327.2 205 -252.3 253.7 -157.2"
+            fill="#4FACF7"></path>
+        </g>
+      </svg>
+
+      <script>
+        const tween001 = KUTE.fromTo(
+          '#blob31',
+          { path: '#blob31' },
+          { path: '#blob32' },
+          { repeat: 999, duration: 3000, yoyo: true }
+        )
+        tween001.start()
+      </script>
+
+    </div>
+    <div class="tercerSombra hidden">
+      <svg class="blobAnimado" id="visual" viewBox="0 0 900 600" width="900" height="55s0"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        <g transform="translate(450.25685571071824 255.55930989230006)">
+          <path id="blobSom31"
+            d="M268 -138.3C331.1 -45.5 354.8 86.5 303.5 190.6C252.3 294.7 126.2 370.8 -1.9 371.9C-129.9 373 -259.8 299 -308.5 196.4C-357.2 93.7 -324.8 -37.5 -259.8 -131.3C-194.9 -225.2 -97.4 -281.6 2.5 -283C102.5 -284.5 205 -231 268 -138.3"
+            fill="#2b6696"></path>
+        </g>
+        <g transform="translate(465.18710936946184 265.7400496568554)" style="visibility:hidden;">
+          <path id="blobSom32"
+            d="M253.7 -157.2C302.4 -62.1 297.3 53.3 246.1 157.9C194.9 262.5 97.4 356.3 -11.9 363.1C-121.2 370 -242.5 290 -306.3 178.2C-370.1 66.3 -376.4 -77.3 -315.8 -179.3C-255.2 -281.3 -127.6 -341.7 -12.6 -334.4C102.5 -327.2 205 -252.3 253.7 -157.2"
+            fill="#2b6696"></path>
+        </g>
+      </svg>
+
+      <script>
+        const tweenSom03 = KUTE.fromTo(
+          '#blobSom31',
+          { path: '#blobSom31' },
+          { path: '#blobSom32' },
+          { repeat: 999, duration: 3000, yoyo: true }
+        )
+        tweenSom03.start()
+      </script>
+
+    </div>
+    <div class="tercerTexto hidden">
+      <h1>
+        Página Web
+      </h1>
+      <p>
+        Estás ahora mismo en ella, es la primera web que hago de este estilo y ya tengo variedad de ideas para cambiarla y mejorarla e incluso en hacer un <i>re-work</i> completo para nuevas ideas.<br><br>
+        Si se te ocurre alguna mejora o cambio que te resulte interesante ve a la sección de contacto y házmelo saber :)
+        <br><br>
+        <a href="../index.html">
+          <img id="imagen" src="../multimedia/ico web.png" width="35%">
+        </a>
+      </p>
+
+    </div>
+
+
 
 
     <script src="proy.js"></script>

@@ -360,7 +360,41 @@
   padding: 0;
   position: absolute;
 }
-
+.tercerTexto{
+  z-index: 10;
+  width: 60%;
+  height: 7%;
+  color: #ffffff;
+  font-family: 'Roboto';
+  top: 60%;
+  right: 10%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+.tercer{
+  z-index: 0;
+  width: 75%;
+  height: 30%;
+  top: 55%;  
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.tercerSombra{
+  z-index: -1;
+  width: 65%;
+  height: 32%;
+  top: 57%;  
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  opacity: 0.5;
+}
 @media screen and (max-width: 5120px) {
     .primerTexto h1{
       position: relative;
@@ -388,6 +422,21 @@
       position: relative;
       top:45%;
       right: -5%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 45ch;
+      font-size: 1em;
+      }
+      .tercerTexto h1{
+        position: relative;
+        top:20%;
+        right: -7%;
+        font-size: 2.75em;
+      }
+      .tercerTexto p{
+        position: relative;
+      top:25%;
+      right: -4%;
       line-height: 2.5em;
       letter-spacing: .1em;
       max-width: 45ch;
@@ -428,6 +477,21 @@
       max-width: 45ch;
       font-size: 1em;
       }
+      .tercerTexto h1{
+      position: relative;
+      top:20%;
+      right: -3%;
+      font-size: 2.75em;
+    }
+    .tercerTexto p{
+      position: relative;
+    top:25%;
+    right: 5%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 1em;
+    }
   }
   
   @media screen and (max-width: 1895px) {
@@ -457,6 +521,21 @@
       position: relative;
       top:40%;
       right: 7%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 45ch;
+      font-size: 1em;
+      }
+      .tercerTexto h1{
+        position: relative;
+        top:20%;
+        right: 2%;
+        font-size: 2.75em;
+      }
+      .tercerTexto p{
+        position: relative;
+      top:25%;
+      right: 9%;
       line-height: 2.5em;
       letter-spacing: .1em;
       max-width: 45ch;
@@ -499,6 +578,21 @@
     max-width: 45ch;
     font-size: 1em;
     }
+    .tercerTexto h1{
+      position: relative;
+      top:20%;
+      right: 2%;
+      font-size: 2.75em;
+    }
+    .tercerTexto p{
+      position: relative;
+    top:25%;
+    right: 12%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 1em;
+    }
   }
   
   @media screen and (max-width: 1263px) {
@@ -535,6 +629,7 @@
     max-width: 45ch;
     font-size: 0.95em;
     }
+ 
   }
   
   @media screen and (max-width: 1148px) {
@@ -570,6 +665,21 @@
     max-width: 45ch;
     font-size: 0.8em;
     }
+    .tercerTexto h1{
+      position: relative;
+      top:25%;
+      right: 2%;
+      font-size: 2.25em;
+    }
+    .tercerTexto p{
+      position: relative;
+    top:33%;
+    right: 12%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.9em;
+    }
   }
   
   @media screen and (max-width: 1010px) {
@@ -604,6 +714,21 @@
     letter-spacing: .1em;
     max-width: 45ch;
     font-size: 0.7em;
+    }
+    .tercerTexto h1{
+      position: relative;
+      top:45%;
+      right: 2%;
+      font-size: 2em;
+    }
+    .tercerTexto p{
+      position: relative;
+    top:50%;
+    right: 12%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.75em;
     }
   }
   
@@ -641,6 +766,21 @@
     max-width: 45ch;
     font-size: 0.6em;
     }
+    .tercerTexto h1{
+      position: relative;
+      top:55%;
+      right: 2%;
+      font-size: 1.7em;
+    }
+    .tercerTexto p{
+      position: relative;
+    top:60%;
+    right: 12%;
+    line-height: 2.5em;
+    letter-spacing: .1em;
+    max-width: 45ch;
+    font-size: 0.65em;
+    }
   }
   
   @media screen and (max-width: 722px) {
@@ -672,6 +812,21 @@
       position: relative;
       top: 125%;
       right: 15%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 45ch;
+      font-size: 0.5em;
+      }
+      .tercerTexto h1{
+        position: relative;
+        top:80%;
+        right: 2%;
+        font-size: 1.5em;
+      }
+      .tercerTexto p{
+        position: relative;
+      top:80%;
+      right: 12%;
       line-height: 2.5em;
       letter-spacing: .1em;
       max-width: 45ch;
@@ -713,6 +868,22 @@
       max-width: 45ch;
       font-size: 0.4em;
       }
+      .tercerTexto h1{
+        position: relative;
+        top:90%;
+        right: 2%;
+        font-size: 1.25em;
+      }
+      .tercerTexto p{
+        position: relative;
+      top:95%;
+      right: 12%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 45ch;
+      font-size: 0.35em;
+      }
+      
   }
   
   @media screen and (max-width: 505px) {
@@ -744,6 +915,21 @@
       position: relative;
       top: 155%;
       right: 15%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 45ch;
+      font-size: 0.3em;
+      }
+      .tercerTexto h1{
+        position: relative;
+        top:98%;
+        right: 2%;
+        font-size:0.9em;
+      }
+      .tercerTexto p{
+        position: relative;
+      top:99%;
+      right: 12%;
       line-height: 2.5em;
       letter-spacing: .1em;
       max-width: 45ch;
@@ -785,6 +971,21 @@
       max-width: 38ch;
       font-size: 0.15em;
       }
+      .tercerTexto h1{
+        position: relative;
+        top:110%;
+        right: 2%;
+        font-size: 0.65em;
+      }
+      .tercerTexto p{
+        position: relative;
+      top:110%;
+      right: 12%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 35ch;
+      font-size: 0.2em;
+      }
   }
   
   @media screen and (max-width: 315px) {
@@ -819,6 +1020,21 @@
       line-height: 2.5em;
       letter-spacing: .1em;
       max-width: 38ch;
+      font-size: 0.15em;
+      }
+      .tercerTexto h1{
+        position: relative;
+        top:115%;
+        right: 2%;
+        font-size: 0.5em;
+      }
+      .tercerTexto p{
+        position: relative;
+      top:115%;
+      right: 12%;
+      line-height: 2.5em;
+      letter-spacing: .1em;
+      max-width: 25ch;
       font-size: 0.15em;
       }
   }
